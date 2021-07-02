@@ -13,7 +13,7 @@ public class Cube : MonoBehaviour
 		GUIStyle style = new GUIStyle("button");
 		style.fontSize = 30;        
 		if (GUI.Button(new Rect(10, 10, 200, 100), "Quit", style)) {
-			Debug.Log("Quit");
+			Application.Quit();
 		}
 	}
 }
