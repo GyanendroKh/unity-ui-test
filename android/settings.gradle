@@ -1,2 +1,5 @@
 rootProject.name = "UiTest"
 include ':app'
+
+include ':unityLibrary'
+project(':unityLibrary').projectDir = new File('../unity/androidBuild/unityLibrary');
